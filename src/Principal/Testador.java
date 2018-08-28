@@ -14,7 +14,7 @@ public class Testador {
 		LivroDao ldao = new LivroDao(c.abrirConexao());
 		ldao.save(l);
 		
-		
+		System.out.println("Bom dia!");
 		//Livro atualizado = new Livro("Valley of Genius", "Dont know", "Ximbinha", 3,56.78);
 				
 		//atualizado.setId(7);
